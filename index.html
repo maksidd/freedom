@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книга</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #000;
+        }
+        article {
+            line-height: 1.6;
+            font-size: 18px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            article {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Название книги</h1>
+        <h2>Автор</h2>
+        <article>
+            <p>Твой текст начинается здесь...</p>
+        </article>
+    </div>
+</body>
+</html>
